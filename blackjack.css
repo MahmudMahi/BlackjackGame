@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.banner{
+    background-image: url("img/blackjack.jpg");
+    background-position: center;
+    padding: 25px;
+    color: #fff;
+    font-family: arial;
+}
+.banner img{
+    height: 100px;
+    width: 100px;
+    margin-left: 90%;
+}
+.banner h4{
+    margin-left: 90%;
+    font-family:arial;
+}
+.banner h1{
+    font-family: arial;
+    margin-top: 30px;
+}
+.banner h3{
+    color:viol;
+}
+
+.container-board{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: arial;
+    color: white;
+    background-image: url(img/background_table.jpg);
+    background-position: center;
+    height:500px;
+}
+.container-board div{
+    border:5px solid black;
+    flex:1;
+    padding:10px;
+    width:75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-board  h2{
+    border:5px solid black;
+    padding: 10px;
+}
+
+.container-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/background_table.jpg);
+    background-position: center;
+    padding: 10px;
+}
+.container-button button{
+    background-color: red;
+    padding: 10px;
+    color:white;
+    font-size: 25px;
+    font-family: arial;
+}
+#hit{
+    background-color:purple;
+    margin-right: 5px;
+}
+#stand{
+    background-color:#999900;
+    margin-right: 5px;
+}
+#deal{
+    background-color: green;
+}
+.table-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white;
+    font-size:30px;
+    padding: 20px;
+    border:2px solid white;
+}
+
+.table-container td {
+    border:2px solid white;
+    padding: 10px;
+}
+
+.table-container th {
+    border:2px solid white;
+    padding: 10px;
+}
+.resultShower{
+    text-align: center;
+    font-family: arial;
+    color:white;
+}
+
+.resultShower h2{
+    padding: 17px;
+}
+
+#showResult{
+   padding-bottom:10px;
+   color: blanchedalmond;
+}
+
+.options{
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+.options h2{
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+#bg-music{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+#rules{
+    padding: 10px;
+    background-color: lavender;
+}
+

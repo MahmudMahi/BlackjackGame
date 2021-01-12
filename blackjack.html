@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BlackJack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="blackjack.css">
+</head>
+<body>
+    <div class="banner">
+    <h1>BlackJack</h1><br>
+    <h3>Let the dealers <br> see you smile</h3>
+    <img src="https://scontent.fdac73-1.fna.fbcdn.net/v/t1.0-9/131321750_216926046586451_6444194548287416432_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=wMwGmsvFJjoAX-oMFtH&_nc_ht=scontent.fdac73-1.fna&oh=ed6d7e9c6cf31a07a6cee1c4dfe0e42e&oe=601E64AA">
+    <h4 id="copyright">&copy;Mahmud Mahi</h4>
+    </div>
+    <div class="options">
+        <h2>OPTIONS</h2>
+       <button id="bg-music">Background Music</button>
+       <button id="rules" onclick="Rules()">Rules</button>
+    </div>
+    <div id="showRules">
+
+    </div>
+    <div class="resultShower">
+        <h2>Welcome<span id="name"></span>.</h2>
+        <h2 id="showResult">Let's Play</h2>
+    </div>
+    <div class="container-board">
+
+        <div id="yourDiv">
+            <h2>You:<span id="yourResult">0</span></h2>
+        </div>
+        <div id="dealerDiv">
+            <h2>Dealer:<span id="dealerResult">0</span></h2>
+        </div>
+
+    </div>
+    <div class="container-button">
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+        <button id="deal">Deal</button>
+    </div>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Loses</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="loses">0</span></td>
+                <td><span id="draws">0</span></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="blackjack.js"></script>
+</body>
+</html>
