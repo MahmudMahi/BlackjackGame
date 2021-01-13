@@ -168,7 +168,7 @@ body{
     .container-board{
         flex-direction:column;
         height:600px;
-        width:800px;
+        width:700px;
         padding-bottom:10px;
     }
 }
