@@ -117,8 +117,7 @@ function updateScore(activePlayer, card){
     else{
           activePlayer['score']+= blackjackGame['cardScore'][card];
     }
-    console.log(activePlayer['score']);
-}
+ }
 
 function showScore(activePlayer){
     if (activePlayer['score']>21) {
